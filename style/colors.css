@@ -1,0 +1,11 @@
+html[data-theme="light"] {
+    --link-color-: #f6f6f6;
+    --link-color-black: #2b2a29;
+    --link-color-cian:  #00878e;
+    --link-color-without: rgb(255, 255, 255);
+}
+html[data-theme="dark"] {
+    --link-color: rgb(192, 192, 196);
+    --link-color-black: orange;
+    --link-color-cian:  rgb(192, 192, 196);
+}

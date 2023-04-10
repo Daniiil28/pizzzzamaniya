@@ -1,0 +1,83 @@
+.footer-div{
+    background-color: var(--link-color-cian);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-column-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    align-items: center;
+}
+.footer-column-centr{
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-column-left{
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    margin: 17px 0 0;
+}
+.mail1 a{
+
+    text-decoration: none;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tel{
+    text-decoration: none;   
+}
+
+.mail1{
+    position: relative;
+margin: 10px;
+}
+.icon-fb{
+    display: flex;
+    background: url(../image/icons/icon_facebook.png) no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.icon-youtube{
+    display: flex;
+    background: url(../image/icons/icon_foo_youtube.png) no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.icon-insta{
+    display: flex;
+    background: url(../image/icons/icon_instagram.png) no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+.img-soc-networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socseti{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 402px){
+    .footer-div  {display: flex;
+                 flex-direction: column;}
+    .work-time {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+}
+
+
